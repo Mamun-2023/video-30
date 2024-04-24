@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color:var(--second-color);
+}
+.container {
+  background-color:var(--primary-color);
+  padding: var(--default-padding);
+}
+ul li {
+  list-style: none;
+  padding: 20px;
+}
+ul {
+  display: flex;
+  border: 9px solid var(--primary-color);
+}
+
+/* css variables */
+:root {
+  --primary-color: rgb(199, 231, 103);
+  --second-color: rgb(179, 185, 151);
+--default-padding:20px;
+}
+
+ul li:first-child{
+    --primary-color: rgb(190, 148, 80);
+    background-color:var(--primary-color) ;
+}
